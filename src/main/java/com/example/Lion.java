@@ -16,17 +16,19 @@ public class Lion {
         }
     }
 
-    Feline feline = new Feline();
+    Lion lion = new lion();
 
     public int getKittens() {
-        return feline.getKittens();
+
+        return lion.getKittens();
     }
 
     public boolean doesHaveMane() {
+
         return hasMane;
     }
 
     public List<String> getFood() throws Exception {
-        return feline.getFood("Хищник");
+        return lion.getFood("Хищник");
     }
 }
